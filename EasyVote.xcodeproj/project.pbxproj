@@ -14,6 +14,10 @@
 		C21A60B11A0E82CA0081715B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21A60B01A0E82CA0081715B /* Images.xcassets */; };
 		C21A60B41A0E82CA0081715B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21A60B21A0E82CA0081715B /* LaunchScreen.xib */; };
 		C21A60C01A0E82CA0081715B /* EasyVoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C21A60BF1A0E82CA0081715B /* EasyVoteTests.m */; };
+		C250586D1A1C1AEB00641E0F /* CreateSurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C250586C1A1C1AEB00641E0F /* CreateSurveyViewController.m */; };
+		C25058701A1C1D7600641E0F /* ListQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C250586F1A1C1D7600641E0F /* ListQuestionsViewController.m */; };
+		C25058731A1C40DB00641E0F /* SaveQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25058721A1C40DB00641E0F /* SaveQuestionViewController.m */; };
+		C2627A181A1CC2470094C674 /* QuestionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2627A171A1CC2470094C674 /* QuestionDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		C21A60B91A0E82CA0081715B /* EasyVoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyVoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21A60BE1A0E82CA0081715B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C21A60BF1A0E82CA0081715B /* EasyVoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyVoteTests.m; sourceTree = "<group>"; };
+		C250586B1A1C1AEB00641E0F /* CreateSurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateSurveyViewController.h; sourceTree = "<group>"; };
+		C250586C1A1C1AEB00641E0F /* CreateSurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateSurveyViewController.m; sourceTree = "<group>"; };
+		C250586E1A1C1D7600641E0F /* ListQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListQuestionsViewController.h; path = EasyVote/ListQuestionsViewController.h; sourceTree = "<group>"; };
+		C250586F1A1C1D7600641E0F /* ListQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListQuestionsViewController.m; path = EasyVote/ListQuestionsViewController.m; sourceTree = "<group>"; };
+		C25058711A1C40DB00641E0F /* SaveQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveQuestionViewController.h; sourceTree = "<group>"; };
+		C25058721A1C40DB00641E0F /* SaveQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveQuestionViewController.m; sourceTree = "<group>"; };
+		C2627A161A1CC2470094C674 /* QuestionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionDetailViewController.h; sourceTree = "<group>"; };
+		C2627A171A1CC2470094C674 /* QuestionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,14 @@
 		C21A60971A0E82C90081715B = {
 			isa = PBXGroup;
 			children = (
+				C2627A161A1CC2470094C674 /* QuestionDetailViewController.h */,
+				C2627A171A1CC2470094C674 /* QuestionDetailViewController.m */,
+				C25058711A1C40DB00641E0F /* SaveQuestionViewController.h */,
+				C25058721A1C40DB00641E0F /* SaveQuestionViewController.m */,
+				C250586E1A1C1D7600641E0F /* ListQuestionsViewController.h */,
+				C250586F1A1C1D7600641E0F /* ListQuestionsViewController.m */,
+				C250586B1A1C1AEB00641E0F /* CreateSurveyViewController.h */,
+				C250586C1A1C1AEB00641E0F /* CreateSurveyViewController.m */,
 				C21A60A21A0E82C90081715B /* EasyVote */,
 				C21A60BC1A0E82CA0081715B /* EasyVoteTests */,
 				C21A60A11A0E82C90081715B /* Products */,
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C250586D1A1C1AEB00641E0F /* CreateSurveyViewController.m in Sources */,
 				C21A60AC1A0E82CA0081715B /* ViewController.m in Sources */,
 				C21A60A91A0E82CA0081715B /* AppDelegate.m in Sources */,
+				C25058731A1C40DB00641E0F /* SaveQuestionViewController.m in Sources */,
 				C21A60A61A0E82CA0081715B /* main.m in Sources */,
+				C2627A181A1CC2470094C674 /* QuestionDetailViewController.m in Sources */,
+				C25058701A1C1D7600641E0F /* ListQuestionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +438,7 @@
 				C21A60C51A0E82CA0081715B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C21A60C61A0E82CA0081715B /* Build configuration list for PBXNativeTarget "EasyVoteTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +447,7 @@
 				C21A60C81A0E82CA0081715B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
